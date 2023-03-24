@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hola Mundo");
-        Car car = new Car();
+        Car car = new Car("AMQ123");
         car.license  = "AMQ123";
         car.driver = "Jose Reyna";
         car.passenger = 4;
