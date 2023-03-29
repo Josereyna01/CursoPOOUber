@@ -1,1 +1,5 @@
-JS/Payment.js
+class Payment {
+    constructor() {
+        this.id;
+    }
+}
