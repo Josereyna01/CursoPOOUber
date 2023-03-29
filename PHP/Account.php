@@ -1,9 +1,16 @@
 <?php
-
 class Account {
-    Public $id;
-    Public $name;
-    Public $document;
-    Public $email;
-    Public $password;
+    public $id;
+    public $name;
+    public $document;
+    public $email;
+    public $password;
+
+    public function __construct($name, $document){
+        $this->name = $name;
+        $this->document = $document;
+    }
+
 }
+
+?>

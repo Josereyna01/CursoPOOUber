@@ -1,7 +1,7 @@
 <?php
-
 class Route {
-    Public $id;
-    Public $start;
-    Public $end;
+    public $id;
+    public $init = array();
+    public $end = array();
 }
+?>
